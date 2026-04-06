@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Config")
-  const ogUrl = new URL(`${siteConfig.url}/api/og`)
+  const ogUrl = new URL(`${siteConfig.url}/images/og-image.png`)
   ogUrl.searchParams.set("title", t("name"))
   ogUrl.searchParams.set("description", t("description"))
 
@@ -61,8 +61,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     icons: {
       icon: "/favicon.ico",
-      shortcut: "/favicon-16x16.png",
-      apple: "/apple-touch-icon.png",
+      shortcut: "/favicon.ico",
     },
     manifest: `${siteConfig.url}/site.webmanifest`,
     appleWebApp: {
