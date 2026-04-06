@@ -5,7 +5,7 @@ import * as React from "react"
 import { ClockIcon } from "@phosphor-icons/react"
 import { motion } from "framer-motion"
 
-const TARGET_DATE = new Date("2026-04-10T23:59:59").getTime()
+import { PRICES, SITE_CONFIG, TARGET_DATE } from "@/src/config/constants"
 
 export function PromoBanner(): React.JSX.Element | null {
   const [timeLeft, setTimeLeft] = React.useState({
@@ -14,7 +14,7 @@ export function PromoBanner(): React.JSX.Element | null {
     minutes: 0,
     seconds: 0,
   })
-  const [isExpired, setIsExpired] = React.useState(false)
+  const [isExpired, setIsExpired] = React.useState(!SITE_CONFIG.isPromoActive)
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -96,9 +96,9 @@ export function PromoBanner(): React.JSX.Element | null {
 
         <div className="hidden lg:flex items-center gap-2 border-l border-white/20 pl-8">
           <span className="font-sans text-[10px] font-black uppercase tracking-widest">
-            De <span className="line-through opacity-60">R$ 497</span> por{" "}
+            De <span className="line-through opacity-60">R$ {PRICES.original}</span> por{" "}
             <span className="text-white brightness-125 underline underline-offset-4">
-              R$ 97
+              R$ {PRICES.promo}
             </span>
           </span>
         </div>

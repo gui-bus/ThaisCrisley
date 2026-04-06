@@ -9,6 +9,7 @@ import { SealCheckIcon, ShieldCheckIcon } from "@phosphor-icons/react"
 import { Variants, motion } from "framer-motion"
 
 import { CtaButton } from "@/src/components/common/ctaButton"
+import { SITE_CONFIG } from "@/src/config/constants"
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 40, filter: "blur(10px)" },
@@ -30,6 +31,11 @@ const stagger: Variants = {
 
 export function Offer(): React.JSX.Element {
   const t = useTranslations("Offer")
+  const [isPromoActive, setIsPromoActive] = React.useState(false)
+
+  React.useEffect(() => {
+    setIsPromoActive(SITE_CONFIG.isPromoActive)
+  }, [])
 
   return (
     <section
@@ -114,21 +120,27 @@ export function Offer(): React.JSX.Element {
             <div className="py-10 px-5 md:p-16 bg-[#623828] rounded-[4rem] shadow-[0_60px_100px_-20px_rgba(45,27,20,0.3)] relative overflow-hidden flex flex-col items-center text-center">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 blur-[100px] rounded-full" />
 
-              <span className="relative z-10 mb-12 inline-block px-6 py-2 rounded-full border border-white/10 font-sans text-[10px] font-black uppercase tracking-widest text-orange-500">
-                {t("launchCondition")}
-              </span>
+              {isPromoActive && (
+                <span className="relative z-10 mb-12 inline-block px-6 py-2 rounded-full border border-white/10 font-sans text-[10px] font-black uppercase tracking-widest text-orange-500">
+                  {t("launchCondition")}
+                </span>
+              )}
 
               <div className="relative z-10 flex flex-col items-center mb-16">
-                <span className="font-sans text-xl font-light text-[#F3E3D3]/20 line-through tracking-[0.2em]">
-                  {t("originalPrice")}
-                </span>
+                {isPromoActive && (
+                  <span className="font-sans text-xl font-light text-[#F3E3D3]/20 line-through tracking-[0.2em]">
+                    {t("originalPrice")}
+                  </span>
+                )}
 
                 <div className="flex items-center gap-4">
                   <span className="font-heading text-4xl font-bold text-white">
                     {t("priceCurrency")}
                   </span>
                   <h3 className="font-heading text-9xl md:text-[11rem] font-bold leading-none text-white tracking-tighter">
-                    {t("promotionalPrice").replace(/[^0-9]/g, "")}
+                    {isPromoActive
+                      ? t("promotionalPrice").replace(/[^0-9]/g, "")
+                      : t("originalPrice").replace(/[^0-9]/g, "")}
                   </h3>
                   <div className="flex flex-col items-start">
                     <span className="font-heading text-4xl font-bold text-white">

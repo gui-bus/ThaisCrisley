@@ -14,6 +14,7 @@ import {
 import { Variants, motion } from "framer-motion"
 
 import { CtaButton } from "@/src/components/common/ctaButton"
+import { SITE_CONFIG } from "@/src/config/constants"
 
 import { About } from "./About"
 
@@ -37,6 +38,11 @@ const navLinks = [
 
 export function Closing(): React.JSX.Element {
   const t = useTranslations("Closing")
+  const [isPromoActive, setIsPromoActive] = React.useState(false)
+
+  React.useEffect(() => {
+    setIsPromoActive(SITE_CONFIG.isPromoActive)
+  }, [])
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
@@ -105,9 +111,11 @@ export function Closing(): React.JSX.Element {
                 </CtaButton>
               </div>
 
-              <p className="font-sans text-[10px] font-black uppercase tracking-[0.4em] text-[#623828]/40">
-                {t("footer")}
-              </p>
+              {isPromoActive && (
+                <p className="font-sans text-[10px] font-black uppercase tracking-[0.4em] text-[#623828]/40">
+                  {t("footer")}
+                </p>
+              )}
             </motion.div>
           </motion.div>
         </div>
