@@ -48,7 +48,7 @@ export function Benefits(): React.JSX.Element {
               <span className="mb-6 block font-sans text-xs font-bold uppercase tracking-[0.4em] text-[#E67E22]">
                 {t("badge")}
               </span>
-              <h2 className="font-heading text-6xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-9xl tracking-tighter">
+              <h2 className="font-heading text-5xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-9xl tracking-tighter">
                 {t("title").split(" ")[0]} {t("title").split(" ")[1]}
                 <br />
                 <span className="bg-linear-to-br from-[#E67E22] to-[#D35400] bg-clip-text text-transparent italic font-serif pr-4">
