@@ -179,7 +179,7 @@ export function Hero(): React.JSX.Element {
 
               <div className="flex h-full w-full items-center justify-center bg-black">
                 <video
-                  src="/videos/videos/heroVideo.mp4"
+                  src="/videos/heroVideo.mp4"
                   controls
                   autoPlay
                   className="h-full w-full object-contain"
