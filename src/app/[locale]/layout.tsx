@@ -12,7 +12,6 @@ import { cn } from "@/src/lib/utils/utils"
 import { fontVariables } from "@/src/config/fonts"
 import { siteConfig } from "@/src/config/site"
 
-//@ts-expect-error Globals import
 import "@/src/app/globals.css"
 
 export const viewport: Viewport = {
