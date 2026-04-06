@@ -36,7 +36,10 @@ export function Hero(): React.JSX.Element {
   const [isVideoOpen, setIsVideoOpen] = React.useState(false)
 
   return (
-    <section className="relative w-full flex items-center overflow-hidden bg-white pt-52 md:pt-32 px-6 lg:px-24" id="inicio">
+    <section
+      className="relative w-full flex items-center overflow-hidden bg-white pt-52 md:pt-32 px-6 lg:px-24"
+      id="inicio"
+    >
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute -top-1/4 -left-1/4 w-150 h-150 bg-orange-50 blur-[120px] rounded-full opacity-60" />
         <div className="absolute top-1/2 -right-1/4 w-100 h-100 bg-orange-100/30 blur-[100px] rounded-full" />
@@ -78,7 +81,7 @@ export function Hero(): React.JSX.Element {
               >
                 {t("cta")}
               </CtaButton>
-
+              {/* 
               <button
                 onClick={() => setIsVideoOpen(true)}
                 className="group flex items-center gap-4 transition-all hover:translate-x-1 cursor-pointer"
@@ -89,7 +92,7 @@ export function Hero(): React.JSX.Element {
                 <span className="font-sans text-sm font-bold uppercase tracking-[0.2em] text-[#623828] underline-offset-8 group-hover:underline">
                   {t("watchVideo")}
                 </span>
-              </button>
+              </button> */}
             </motion.div>
 
             <motion.div
@@ -155,7 +158,7 @@ export function Hero(): React.JSX.Element {
           </motion.div>
         </div>
       </div>
-
+      {/* 
       <AnimatePresence>
         {isVideoOpen && (
           <motion.div
@@ -188,7 +191,7 @@ export function Hero(): React.JSX.Element {
             </motion.div>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </section>
   )
 }
