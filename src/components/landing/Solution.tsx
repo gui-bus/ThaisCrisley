@@ -40,10 +40,10 @@ export function Solution(): React.JSX.Element {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24"
+          className="grid grid-cols-1 xl:grid-cols-12 gap-16 xl:gap-24"
         >
           <div className="lg:col-span-7 flex flex-col justify-center">
-            <motion.div variants={fadeInUp} className="mb-10">
+            <motion.div variants={fadeInUp} className="xl:mb-10">
               <div className="flex items-center gap-4 mb-8">
                 <CheckCircleIcon weight="fill" className="text-[#623828] h-6 w-6" />
                 <span className="font-sans text-xs font-bold uppercase tracking-[0.4em] text-[#623828]">
@@ -57,7 +57,7 @@ export function Solution(): React.JSX.Element {
             </motion.div>
 
             <motion.div variants={fadeInUp} className="relative">
-              <div className="h-px w-32 bg-[#623828] mb-12" />
+              <div className="h-px w-32 bg-[#623828] xl:mb-12" />
               <p className="font-serif text-3xl italic leading-tight md:text-5xl lg:text-6xl max-w-2xl bg-linear-to-br from-[#E67E22] to-[#D35400] bg-clip-text text-transparent">
                 {t("internalSolution")}
               </p>

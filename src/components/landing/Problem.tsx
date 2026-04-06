@@ -73,7 +73,7 @@ export function Problem(): React.JSX.Element {
             </motion.div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
             {["0", "1", "2", "3"].map((index, i) => (
               <motion.div
                 key={index}

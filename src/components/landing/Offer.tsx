@@ -54,9 +54,9 @@ export function Offer(): React.JSX.Element {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 lg:grid-cols-12 gap-20 lg:gap-32 items-start"
+          className="grid grid-cols-1 xl:grid-cols-12 gap-20 lg:gap-32 items-start"
         >
-          <div className="lg:col-span-7 flex flex-col gap-16">
+          <div className="xl:col-span-7 flex flex-col gap-16">
             <motion.div variants={fadeInUp} className="flex flex-col gap-8">
               <span className="block font-sans text-xs font-bold uppercase tracking-[0.6em] text-orange-500">
                 {t("badge")}
@@ -115,7 +115,7 @@ export function Offer(): React.JSX.Element {
 
           <motion.div
             variants={fadeInUp}
-            className="lg:col-span-5 sticky top-32"
+            className="xl:col-span-5 sticky top-32"
           >
             <div className="py-10 px-5 md:p-16 bg-[#623828] rounded-[4rem] shadow-[0_60px_100px_-20px_rgba(45,27,20,0.3)] relative overflow-hidden flex flex-col items-center text-center">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 blur-[100px] rounded-full" />

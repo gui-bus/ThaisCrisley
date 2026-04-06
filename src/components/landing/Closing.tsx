@@ -14,6 +14,7 @@ import {
 import { Variants, motion } from "framer-motion"
 
 import { CtaButton } from "@/src/components/common/ctaButton"
+
 import { SITE_CONFIG } from "@/src/config/constants"
 
 import { About } from "./About"
@@ -121,9 +122,7 @@ export function Closing(): React.JSX.Element {
         </div>
       </div>
 
-      <section id="sobre">
-        <About />
-      </section>
+      <About />
 
       <div className="bg-[#2D1B14] px-6 pt-32 pb-16 lg:px-24 relative">
         <div className="absolute top-0 left-0 w-full overflow-hidden pointer-events-none -translate-y-1/2 select-none opacity-40">
@@ -133,8 +132,8 @@ export function Closing(): React.JSX.Element {
         </div>
 
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 lg:gap-32 items-start mb-32">
-            <div className="lg:col-span-6 flex flex-col items-start gap-16">
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-20 xl:gap-32 items-start mb-32">
+            <div className="xl:col-span-6 flex flex-col items-start gap-16">
               <div className="flex flex-col gap-12">
                 <div className="relative h-16 w-56 transition-transform hover:scale-105 duration-500">
                   <Image
@@ -218,7 +217,7 @@ export function Closing(): React.JSX.Element {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center justify-between pt-12 border-t border-white/5 gap-10">
+          <div className="flex flex-col xl:flex-row items-center justify-between pt-12 border-t border-white/5 gap-10">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-center md:text-left">
               <p className="font-sans text-[10px] font-bold uppercase tracking-[0.2em] text-white/20">
                 © {new Date().getFullYear()} {t("name")}

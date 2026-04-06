@@ -43,11 +43,11 @@ export function About(): React.JSX.Element {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 items-start gap-16 lg:grid-cols-12 lg:gap-24"
+          className="grid grid-cols-1 items-start gap-16 xl:grid-cols-12 lg:gap-24"
         >
           <motion.div
             variants={fadeInUp}
-            className="relative lg:col-span-4 lg:sticky lg:top-32"
+            className="relative xl:col-span-4 lg:sticky lg:top-32"
           >
             <div className="group relative aspect-3/4 w-full overflow-hidden rounded-[3rem] shadow-[0_32px_64px_-16px_rgba(98,56,40,0.15)] transition-transform duration-700 hover:scale-[1.01]">
               <Image
@@ -78,7 +78,7 @@ export function About(): React.JSX.Element {
 
           <motion.div
             variants={fadeInUp}
-            className="flex flex-col items-start lg:col-span-8"
+            className="flex flex-col items-start xl:col-span-8"
           >
             <div className="mb-10 inline-flex items-center gap-3 rounded-full border border-orange-500/10 bg-orange-50/50 px-6 py-2.5">
               <Star weight="fill" className="h-4 w-4 text-orange-500" />

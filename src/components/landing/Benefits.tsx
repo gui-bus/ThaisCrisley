@@ -43,12 +43,12 @@ export function Benefits(): React.JSX.Element {
           viewport={{ once: true, margin: "-100px" }}
           className="flex flex-col gap-32"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 items-end">
             <motion.div variants={fadeInUp} className="lg:col-span-8">
               <span className="mb-6 block font-sans text-xs font-bold uppercase tracking-[0.4em] text-[#E67E22]">
                 {t("badge")}
               </span>
-              <h2 className="font-heading text-5xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-9xl tracking-tighter">
+              <h2 className="font-heading text-5xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-8xl tracking-tighter">
                 {t("title").split(" ")[0]} {t("title").split(" ")[1]}
                 <br />
                 <span className="bg-linear-to-br from-[#E67E22] to-[#D35400] bg-clip-text text-transparent italic font-serif pr-4">
@@ -70,7 +70,7 @@ export function Benefits(): React.JSX.Element {
                 <motion.div
                   key={index}
                   variants={fadeInUp}
-                  className="group relative py-12 border-b border-[#623828]/5 flex flex-col md:flex-row md:items-center justify-between gap-8 transition-colors hover:bg-orange-50/30 px-4 md:px-8 rounded-2xl"
+                  className="group relative py-12 border-b border-[#623828]/5 flex flex-col xl:flex-row xl:items-center justify-between gap-8 transition-colors hover:bg-orange-50/30 px-4 xl:px-8 rounded-2xl"
                 >
                   <div className="flex items-center gap-12">
                     <span className="font-heading text-2xl italic text-[#E67E22]/30 group-hover:text-[#E67E22] transition-colors duration-500">
@@ -82,7 +82,7 @@ export function Benefits(): React.JSX.Element {
                   </div>
 
                   <div className="flex items-center gap-8 max-w-md">
-                    <p className="font-sans text-lg font-light leading-relaxed text-[#623828]/60 group-hover:text-[#623828] transition-colors text-end">
+                    <p className="font-sans text-lg font-light leading-relaxed text-[#623828]/60 group-hover:text-[#623828] transition-colors xl:text-end">
                       {t(`list.${index}`)}
                     </p>
                     <ArrowUpRightIcon

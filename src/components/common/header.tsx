@@ -62,7 +62,7 @@ export function Header() {
             />
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-10">
+          <nav className="hidden xl:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -86,7 +86,7 @@ export function Header() {
           <button
             onClick={toggleMenu}
             className={cn(
-              "lg:hidden flex h-10 w-10 items-center justify-center rounded-full transition-colors",
+              "flex h-10 w-10 items-center justify-center rounded-full transition-colors",
               isScrolled
                 ? "bg-white/10 text-white hover:bg-white/20"
                 : "bg-[#623828]/5 text-[#623828] hover:bg-[#623828] hover:text-white"
@@ -104,7 +104,7 @@ export function Header() {
 
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <div className="fixed inset-0 z-1001 lg:hidden left-1/2 -translate-x-1/2 w-full max-w-440 overflow-hidden pointer-events-none">
+          <div className="fixed inset-0 z-1001 xl:hidden left-1/2 -translate-x-1/2 w-full max-w-440 overflow-hidden pointer-events-none">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

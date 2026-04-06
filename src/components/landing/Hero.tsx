@@ -70,7 +70,7 @@ export function Hero(): React.JSX.Element {
 
             <motion.div
               variants={itemVariants}
-              className="flex flex-col sm:flex-row items-center gap-8 w-full"
+              className="flex flex-col xl:flex-row xl:items-center gap-8 w-full"
             >
               <CtaButton
                 size="lg"
@@ -141,7 +141,7 @@ export function Hero(): React.JSX.Element {
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-10 md:top-1/4 -right-8 p-6 rounded-3xl"
+              className="absolute top-10 md:top-1/2 xl:top-1/4 -right-8 p-6 rounded-3xl"
             >
               <div className="flex flex-col items-center gap-1">
                 <span className="text-2xl font-bold text-[#623828]">
@@ -168,7 +168,7 @@ export function Hero(): React.JSX.Element {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="relative aspect-video w-full max-w-6xl overflow-hidden rounded-3xl bg-neutral-50 shadow-2xl border border-slate-100"
+              className="relative aspect-video w-full max-w-7xl overflow-hidden rounded-3xl bg-neutral-50 shadow-2xl border border-slate-100"
             >
               <button
                 onClick={() => setIsVideoOpen(false)}

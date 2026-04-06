@@ -43,7 +43,7 @@ export function Modules(): React.JSX.Element {
           viewport={{ once: true, margin: "-100px" }}
           className="flex flex-col gap-32"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 items-end">
             <motion.div variants={fadeInUp} className="lg:col-span-8">
               <div className="flex items-center gap-4 mb-8">
                 <BookOpenIcon
@@ -72,7 +72,7 @@ export function Modules(): React.JSX.Element {
               <motion.div
                 key={idx}
                 variants={fadeInUp}
-                className="group relative py-12 border-b border-[#623828]/5 flex flex-col lg:flex-row lg:items-center justify-between gap-8 transition-all hover:bg-orange-50/30 px-4 md:px-12 rounded-3xl"
+                className="group relative py-12 border-b border-[#623828]/5 flex flex-col xl:flex-row xl:items-center justify-between gap-8 transition-all hover:bg-orange-50/30 px-4 xl:px-12 rounded-3xl"
               >
                 <div className="flex items-center gap-12 lg:w-1/2">
                   <span className="font-serif text-3xl italic text-orange-500/30 group-hover:text-orange-500 transition-colors duration-500 shrink-0">
@@ -83,7 +83,7 @@ export function Modules(): React.JSX.Element {
                   </h4>
                 </div>
 
-                <div className="flex items-center gap-8 lg:w-1/2 lg:justify-end">
+                <div className="flex items-center gap-8 xl:w-1/2 xl:justify-end">
                   <p className="font-sans text-lg font-light leading-relaxed text-[#623828]/60 group-hover:text-[#623828] transition-colors max-w-md">
                     {t(`items.${idx}`).split(":")[1] || t(`items.${idx}`)}
                   </p>
@@ -98,9 +98,9 @@ export function Modules(): React.JSX.Element {
 
           <motion.div
             variants={fadeInUp}
-            className="mt-16 w-full p-12 lg:p-24 bg-[#623828] rounded-[4rem] flex flex-col lg:flex-row items-center justify-between gap-16 relative overflow-hidden shadow-2xl"
+            className="mt-16 w-full p-12 lg:p-24 bg-[#623828] rounded-[4rem] flex flex-col xl:flex-row items-center justify-between gap-16 relative overflow-hidden shadow-2xl"
           >
-            <div className="relative z-10 text-center lg:text-left max-w-xl">
+            <div className="relative z-10 text-center xl:text-left max-w-xl">
               <h3 className="font-heading text-4xl font-bold text-[#F3E3D3] mb-6 md:text-6xl tracking-tight">
                 {t("closingTitle")} <br />
                 <span className="text-orange-500 italic font-serif">

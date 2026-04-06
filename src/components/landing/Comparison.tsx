@@ -115,7 +115,7 @@ export function Comparison(): React.JSX.Element {
 
           <motion.div
             variants={fadeInUp}
-            className="mt-32 w-full flex flex-col lg:flex-row items-center justify-between gap-12 p-12 lg:p-20 bg-[#623828] rounded-[4rem] overflow-hidden relative shadow-2xl"
+            className="mt-32 w-full flex flex-col xl:flex-row items-center justify-between gap-12 p-12 lg:p-20 bg-[#623828] rounded-[4rem] overflow-hidden relative shadow-2xl"
           >
             <div className="relative z-10 max-w-xl text-center lg:text-left">
               <p className="font-heading text-2xl font-light italic leading-tight text-[#F3E3D3] md:text-5xl">
