@@ -133,7 +133,7 @@ export function Closing(): React.JSX.Element {
 
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="grid grid-cols-1 xl:grid-cols-12 gap-20 xl:gap-32 items-start mb-32">
-            <div className="xl:col-span-6 flex flex-col items-start gap-16">
+            <div className="col-span-5 flex flex-col items-start gap-16">
               <div className="flex flex-col gap-12">
                 <div className="relative h-16 w-56 transition-transform hover:scale-105 duration-500">
                   <Image
@@ -181,7 +181,7 @@ export function Closing(): React.JSX.Element {
               </div>
             </div>
 
-            <div className="lg:col-span-6 flex flex-col sm:flex-row justify-between gap-16 lg:pt-12">
+            <div className="col-span-6 2xl:col-span-7 flex flex-col sm:flex-row justify-between gap-16 lg:pt-12">
               <div className="flex flex-col gap-10">
                 <span className="font-sans text-[11px] font-black uppercase tracking-[0.4em] text-orange-500/60">
                   Navegação
