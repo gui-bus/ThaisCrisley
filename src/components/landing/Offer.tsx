@@ -167,7 +167,7 @@ export function Offer(): React.JSX.Element {
                   </div>
                   <div className="relative h-6 w-24 opacity-30 grayscale invert brightness-0">
                     <Image
-                      src="/images/Kiwify_logo_horizontal.png"
+                      src="/images/kiwify.png"
                       alt="Kiwify"
                       fill
                       className="object-contain"
