@@ -42,7 +42,7 @@ export function Hero(): React.JSX.Element {
         <div className="absolute top-1/2 -right-1/4 w-100 h-100 bg-orange-100/30 blur-[100px] rounded-full" />
       </div>
 
-      <div className="relative z-20 w-full px-6">
+      <div className="relative z-20 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           <motion.div
             variants={containerVariants}
@@ -53,7 +53,7 @@ export function Hero(): React.JSX.Element {
           >
             <motion.h1
               variants={itemVariants}
-              className="mb-8 font-heading text-6xl font-bold leading-[0.95] tracking-tighter text-[#623828] sm:text-8xl xl:text-[9rem]"
+              className="mb-8 font-heading text-5xl font-bold leading-[0.95] tracking-tighter text-[#623828] sm:text-8xl xl:text-[9rem]"
             >
               {t("headlineTitle")} <br />
               <span className="bg-linear-to-br from-[#E67E22] to-[#D35400] bg-clip-text text-transparent italic font-serif pr-4">

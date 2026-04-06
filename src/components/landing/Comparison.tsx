@@ -127,7 +127,7 @@ export function Comparison(): React.JSX.Element {
             </div>
 
             <div className="relative z-10 flex flex-col items-center gap-6">
-              <CtaButton size="lg" className="scale-70! md:scale-100!">{t("cta")}</CtaButton>
+              <CtaButton size="lg" className="scale-60! md:scale-100!">{t("cta")}</CtaButton>
 
               <div className="flex items-center gap-3 text-[#F3E3D3]/40">
                 <ArrowRightIcon weight="bold" className="h-4 w-4" />

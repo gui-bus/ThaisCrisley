@@ -54,7 +54,7 @@ export function Modules(): React.JSX.Element {
                   {t("badge")}
                 </span>
               </div>
-              <h2 className="font-heading text-6xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-9xl tracking-tighter">
+              <h2 className="font-heading text-5xl font-bold leading-[0.95] text-[#623828] sm:text-7xl lg:text-9xl tracking-tighter">
                 {t("title")}
                 <span className="text-orange-500">.</span>
               </h2>
