@@ -181,7 +181,7 @@ export function Closing(): React.JSX.Element {
               </div>
             </div>
 
-            <div className="col-span-6 2xl:col-span-7 flex flex-col sm:flex-row justify-between gap-16 lg:pt-12">
+            <div className="col-span-5 2xl:col-span-7 flex flex-col sm:flex-row justify-between gap-16 lg:pt-12">
               <div className="flex flex-col gap-10">
                 <span className="font-sans text-[11px] font-black uppercase tracking-[0.4em] text-orange-500/60">
                   Navegação

@@ -56,7 +56,7 @@ export function Offer(): React.JSX.Element {
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 xl:grid-cols-12 gap-20 lg:gap-32 items-start"
         >
-          <div className="col-span-6 2xl:col-span-7 flex flex-col gap-16">
+          <div className="col-span-5 2xl:col-span-7 flex flex-col gap-16">
             <motion.div variants={fadeInUp} className="flex flex-col gap-8">
               <span className="block font-sans text-xs font-bold uppercase tracking-[0.6em] text-orange-500">
                 {t("badge")}
