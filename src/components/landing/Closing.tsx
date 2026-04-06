@@ -231,7 +231,7 @@ export function Closing(): React.JSX.Element {
             <div className="flex items-center gap-8">
               <div className="hidden sm:block h-px w-12 bg-white/5" />
               <a
-                href="https://guibus.dev/"
+                href="https://guibus.dev/?referral=THAIS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative flex items-center gap-3 px-5 py-2.5 rounded-full border border-white/5 bg-white/2 transition-all hover:bg-white/5 hover:border-white/10 active:scale-95"
