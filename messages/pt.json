@@ -1,0 +1,234 @@
+{
+  "Index": {
+    "title": "Apareça e Venda",
+    "description": "Destrave sua comunicação e comece a vender todos os dias.",
+    "button": "Quero destravar agora",
+    "added_component": ""
+  },
+  "Locale": {
+    "en": "English",
+    "pt": "Português"
+  },
+  "LanguageSwitcher": {
+    "switch_to": "Mudar para {lang}"
+  },
+  "ThemeToggle": {
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "Config": {
+    "name": "Apareça e Venda - Thaís Crisley",
+    "description": "Curso focado em destravar o que impede o crescimento além da técnica, com foco em desbloqueio emocional e temperamentos.",
+    "keywords": "comunicação, vendas, desbloqueio emocional, temperamentos, marketing digital"
+  },
+  "Hero": {
+    "headline": "Apareça com autoridade.",
+    "subHeadline": "O método de desbloqueio emocional que transforma sua comunicação em faturamento real.",
+    "cta": "COMEÇAR AGORA",
+    "trust": "Treinamento exclusivo para empreendedoras",
+    "headlineTitle": "Apareça com",
+    "headlineSubtitle": "Autoridade.",
+    "watchVideo": "Ver vídeo",
+    "studentAlt": "Aluna",
+    "studentsUnlocked": "alunas",
+    "unlockedLabel": "destravadas",
+    "mentoraLabel": "Mentora de desbloqueio emocional e Analista de temperamentos",
+    "videoTitle": "A Estratégia de Autoridade",
+    "videoDescription": "Prepare-se para transformar sua comunicação em faturamento real.",
+    "name": "Thaís Crisley",
+    "studentsCount": "+500"
+  },
+  "Problem": {
+    "intro": "Você sabe que precisa aparecer... Mas na hora de gravar... trava.",
+    "subIntro": "Você abre a câmera... E não sabe o que dizer. Ou até sabe... Mas se sente insegura, se julga, e desiste. E aí você some. De novo.",
+    "context": "Enquanto isso... Você vê outras empreendedoras postando todos os dias, vendendo e crescendo com facilidade. E você pensa: 'Por que pra elas é tão fácil... e pra mim é tão difícil?'",
+    "title": "Não é falta de conteúdo. Não é falta de estratégia.",
+    "symptoms": [
+      "Você grava e não posta",
+      "Você posta e se arrepende",
+      "Você aparece um dia... e some no outro",
+      "Você sente que nunca consegue ser constante"
+    ],
+    "insight": "No fundo, você acredita que o problema é você. Que não nasceu para isso.",
+    "badge": "O Ciclo do Silêncio",
+    "strategyInsight": "A estratégia sozinha não sustenta um negócio que morre no silêncio da sua insegurança.",
+    "finalInsightBadge": "A Grande Mentira"
+  },
+  "Solution": {
+    "headline": "Você não trava porque quer.",
+    "argument": "Você trava porque existe um bloqueio emocional que nunca aprendeu a enxergar. Resolver com técnica é repetir o padrão.",
+    "presentation": "CURSO APAREÇA E VENDA",
+    "cta": "QUERO MEU DESTRAVE AGORA",
+    "internalSolution": "A solução é interna.",
+    "immediateAccess": "Acesso imediato ao conteúdo"
+  },
+  "Benefits": {
+    "title": "O que você vai conquistar:",
+    "list": [
+      "Entender por que você trava",
+      "Parar de se culpar",
+      "Sentir-se segura para aparecer e vender (mesmo com vergonha)"
+    ],
+    "differential": "Você não vai aprender só o que postar, mas por que não consegue postar.",
+    "cta": "Quero começar agora",
+    "badge": "A Promessa",
+    "description": "O caminho para uma comunicação que não apenas aparece, mas converte em faturamento real.",
+    "items": {
+      "0": "Clareza Mental",
+      "1": "Liberdade",
+      "2": "Autoridade Real"
+    },
+    "differentialTitle": "O Grande Diferencial",
+    "guarantee": "Garantia de 7 dias incluída"
+  },
+  "Comparison": {
+    "before": {
+      "title": "Estado Atual",
+      "items": [
+        "Vergonha",
+        "Sem saber o que falar",
+        "Comparação constante",
+        "Frustração"
+      ]
+    },
+    "after": {
+      "title": "Estado Desejado",
+      "items": [
+        "Entender o bloqueio",
+        "Segurança na exposição",
+        "Comunicação natural",
+        "Constância destravada"
+      ]
+    },
+    "badge": "A Evolução",
+    "title": "O Contraste do",
+    "subtitle": "Sucesso.",
+    "optionalBlock": "O bloqueio é opcional.",
+    "inevitableResult": "O resultado é inevitável.",
+    "cta": "QUERO ESSA TRANSFORMAÇÃO",
+    "ctaHint": "Toque para destravar"
+  },
+  "Modules": {
+    "title": "Conteúdo Programático",
+    "items": [
+      "Boas-vindas: O processo de desbloqueio.",
+      "Onde tudo travava: Raiz e mudança de comportamento.",
+      "A raiz do problema: Entenda o travamento real.",
+      "Formas de autossabotagem: Reconhecimento de padrões.",
+      "Por que forçar não funciona: Fim da autopressão.",
+      "Consciência profunda: Exercício guiado de desbloqueio emocional.",
+      "Temperamentos: Seu jeito único de empreender.",
+      "Como destravar na prática: Passo a passo para começar.",
+      "Daqui pra frente: Sustentação do hábito."
+    ],
+    "badge": "O Plano de Voo",
+    "description": "Uma jornada estruturada em 9 etapas para você dominar sua narrativa e destravar seu faturamento.",
+    "closingTitle": "Seu momento de",
+    "closingSubtitle": "transição.",
+    "closingDescription": "Acesso imediato à área de membros exclusiva.",
+    "cta": "QUERO MEU ACESSO AGORA",
+    "ctaHint": "Início em menos de 2 minutos"
+  },
+  "Bonus": {
+    "title": "PRESENTE EXCLUSIVO",
+    "subtitle": "Desafio Destrave os Stories - 21 dias",
+    "description": "21 missões diárias com direcionamentos, frases e ações práticas para sair da teoria.",
+    "badge": "Exclusivo para Alunas",
+    "giftDescription": "Um presente estratégico para acelerar seus resultados e sustentar sua nova autoridade.",
+    "items": [
+      "Missões diárias direcionadas",
+      "Frases e ações práticas",
+      "Acesso vitalício ao guia",
+      "Suporte para dúvidas"
+    ],
+    "cta": "GARANTIR MEU PRESENTE",
+    "originalPriceLabel": "Valor Original",
+    "originalPriceValue": "R$ 197,00"
+  },
+  "Offer": {
+    "originalPrice": "R$ 497",
+    "promotionalPrice": "R$ 97",
+    "warning": "Condição especial de lançamento por tempo limitado.",
+    "cta": "Quero destravar e começar a aparecer",
+    "badge": "Acesso Imediato",
+    "title": "Invista no seu",
+    "subtitle": "FUTURO.",
+    "description": "O método definitivo para quem cansou de ser invisível e decidiu dominar o digital com autoridade real.",
+    "deliverablesTitle": "O que você vai receber:",
+    "deliverables": [
+      "Treinamento Completo Apareça e Venda",
+      "Presente: Ebook Destrave os Stories (21 dias)",
+      "Acesso de 1 ano ao conteúdo",
+      "Bônus exclusivo: Protocolo Destrave 72h",
+      "Bônus Exclusivo: Temperamentos e o seu jeito de empreender",
+      "Suporte Direto para Alunas na plataforma"
+    ],
+    "guaranteeTitle": "Garantia Incondicional de 7 Dias:",
+    "guaranteeDescription": "Se você não sentir o impacto na sua comunicação, devolvemos 100% do seu investimento. Sem perguntas.",
+    "launchCondition": "Condição de Lançamento",
+    "priceCurrency": "R$",
+    "priceDecimals": ",00",
+    "ctaMain": "QUERO MEU ACESSO",
+    "securePayment": "Pagamento Seguro via Kiwify"
+  },
+  "About": {
+    "name": "Thaís Crisley",
+    "founder": "Mentora",
+    "theMentor": "QUEM É THAÍS CRISLEY",
+    "behindTitle": "Mentora de mulheres empreendedoras há mais de 4 anos,",
+    "behindSubtitle": "especialista em desbloqueio emocional e temperamentos.",
+    "bio": "Ao longo da minha jornada, eu comecei a perceber um padrão muito claro: mulheres que tinham potencial, conhecimento, produto, mas que simplesmente não conseguiam aparecer. Elas sabiam o que fazer. Mas travavam, se cobravam, se comparavam. E acabavam desistindo no meio do caminho.\n\nFoi a partir disso que eu aprofundei meus estudos em comportamento, emoções e temperamentos. Porque ficou claro pra mim que o problema não estava na falta de estratégia, mas no que essas mulheres sentiam quando tentavam se expor.\n\nHoje, o meu trabalho é ajudar empreendedoras a se entenderem, destravarem seus bloqueios e desenvolverem segurança pra se posicionar e vender: sem se forçar, sem se sabotar e sem precisar virar outra pessoa!\n\nTudo que eu ensino vem da prática: dos atendimentos, das mentorias e dos processos reais que acompanho todos os dias.\n\nE é exatamente esse caminho que você vai encontrar dentro do Apareça e Venda.\n\nVocê não precisa de mais uma técnica. Você precisa destravar o que te impede de usar o que você já sabe!\n\nEu te espero no Apareça e Venda!",
+    "cta": "Quero destravar agora"
+  },
+  "Closing": {
+    "text": "Você pode continuar adiando ou tomar uma decisão hoje.",
+    "cta": "Quero começar agora",
+    "footer": "O valor voltará ao normal em breve.",
+    "madeBy": "Feito por guibus.dev",
+    "name": "Thaís Crisley",
+    "instagram": "@thaiscrisley"
+  },
+  "Faq": {
+    "badge": "Dúvidas Frequentes",
+    "title": "FAQ",
+    "items": {
+      "0": {
+        "question": "Como vou acessar o curso?",
+        "answer": "Assim que a sua compra for confirmada, você recebe o acesso à plataforma por e-mail. Lá dentro estarão todas as aulas organizadas, para você assistir no seu tempo, de onde quiser."
+      },
+      "1": {
+        "question": "Por quanto tempo terei acesso?",
+        "answer": "O acesso ao curso é de 1 ano. Tempo suficiente para você assistir, aplicar e revisitar o conteúdo sempre que precisar."
+      },
+      "2": {
+        "question": "O curso tem acompanhamento individual?",
+        "answer": "Não. Esse é um curso gravado, pensado para você conseguir se destravar com autonomia. Mas você terá suporte dentro da plataforma caso tenha dúvidas durante o processo."
+      },
+      "3": {
+        "question": "O curso serve para qualquer tipo de negócio?",
+        "answer": "Sim. Porque ele não é sobre o tipo de produto ou serviço. É sobre você conseguir se posicionar e se comunicar com mais segurança."
+      },
+      "4": {
+        "question": "Vou conseguir fazer mesmo tendo pouco tempo?",
+        "answer": "Sim. As aulas são diretas e você pode assistir no seu ritmo. O mais importante é aplicar, mesmo que aos poucos."
+      }
+    }
+  },
+  "CookieConsent": {
+    "message": "Usamos cookies para melhorar sua experiência em nosso site.",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  },
+  "Errors": {
+    "not_found": {
+      "title": "404 - Página não encontrada",
+      "description": "A página que você está procurando não existe.",
+      "button": "Voltar ao início"
+    },
+    "general": {
+      "title": "Algo deu errado!",
+      "description": "Ocorreu um erro inesperado.",
+      "button": "Tentar novamente"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "Index": {
+    "title": "Show Up and Sell",
+    "description": "Unlock your communication and start selling every day.",
+    "button": "Unlock now",
+    "added_component": ""
+  },
+  "Locale": {
+    "en": "English",
+    "pt": "Portuguese"
+  },
+  "LanguageSwitcher": {
+    "switch_to": "Switch to {lang}"
+  },
+  "ThemeToggle": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "Config": {
+    "name": "Show Up and Sell - Thaís Crisley",
+    "description": "Course focused on unlocking what prevents growth beyond technique, focusing on emotional unlocking and temperaments.",
+    "keywords": "communication, sales, emotional unlocking, temperaments, digital marketing"
+  },
+  "Hero": {
+    "headline": "Show Up with Authority.",
+    "subHeadline": "The unlocking method that transforms your communication into real revenue.",
+    "cta": "START NOW",
+    "trust": "Exclusive training for entrepreneurs",
+    "headlineTitle": "Show Up with",
+    "headlineSubtitle": "Authority.",
+    "watchVideo": "Watch video",
+    "studentAlt": "Student",
+    "studentsUnlocked": "students",
+    "unlockedLabel": "unlocked",
+    "mentoraLabel": "Authority Mentor",
+    "videoTitle": "The Authority Strategy",
+    "videoDescription": "Get ready to transform your communication into real revenue.",
+    "name": "Thaís Crisley",
+    "studentsCount": "+500"
+  },
+  "Problem": {
+    "intro": "You know you need to show up... But when it's time to record... you freeze.",
+    "subIntro": "You open the camera... And don't know what to say. Or even know... But you feel insecure, judge yourself, and give up. And then you disappear. Again.",
+    "context": "Meanwhile... You see others posting every day, selling and growing with ease. And you think: 'Why is it so easy for them... and so hard for me?'",
+    "title": "It's not lack of content. It's not lack of strategy.",
+    "symptoms": [
+      "You record and don't post",
+      "You post and regret it",
+      "You show up one day... and disappear the next",
+      "You feel you can never be consistent"
+    ],
+    "insight": "Deep down, you believe the problem is you. That you weren't born for this.",
+    "badge": "The Cycle of Silence",
+    "strategyInsight": "Strategy alone does not sustain a business that dies in the silence of your insecurity.",
+    "finalInsightBadge": "The Big Lie"
+  },
+  "Solution": {
+    "headline": "You don't freeze because you want to.",
+    "argument": "You freeze because there is an emotional block you never learned to see. Solving with technique is repeating the pattern.",
+    "presentation": "SHOW UP AND SELL COURSE",
+    "cta": "I WANT TO UNLOCK NOW",
+    "internalSolution": "The solution is internal.",
+    "immediateAccess": "Immediate access to content"
+  },
+  "Benefits": {
+    "title": "What you will achieve",
+    "list": [
+      "Understand why you freeze",
+      "Stop blaming yourself",
+      "Feel secure to show up and sell (even with shame)"
+    ],
+    "differential": "You won't just learn what to post, but why you can't post.",
+    "cta": "I want to start now",
+    "badge": "The Promise",
+    "description": "The path to communication that not only appears, but converts into real revenue.",
+    "items": {
+      "0": "Mental Clarity",
+      "1": "Freedom",
+      "2": "Real Authority"
+    },
+    "differentialTitle": "The Big Differential",
+    "guarantee": "7-day guarantee included"
+  },
+  "Comparison": {
+    "before": {
+      "title": "Current State",
+      "items": [
+        "Shame",
+        "Not knowing what to say",
+        "Constant comparison",
+        "Frustration"
+      ]
+    },
+    "after": {
+      "title": "Desired State",
+      "items": [
+        "Understand the block",
+        "Exposure security",
+        "Natural communication",
+        "Unlocked consistency"
+      ]
+    },
+    "badge": "The Evolution",
+    "title": "The Contrast of",
+    "subtitle": "Success.",
+    "optionalBlock": "The block is optional.",
+    "inevitableResult": "The result is inevitable.",
+    "cta": "I WANT THIS TRANSFORMATION",
+    "ctaHint": "Tap to unlock"
+  },
+  "Modules": {
+    "title": "Program Content",
+    "items": [
+      "Welcome: The unlocking process.",
+      "Where everything froze: Root and behavioral change.",
+      "The root of the problem: Understand the real freeze.",
+      "Forms of self-sabotage: Pattern recognition.",
+      "Why forcing doesn't work: End of self-pressure.",
+      "Deep consciousness: Guided unlocking exercise.",
+      "Temperaments: Your unique way of entrepreneuring.",
+      "How to unlock in practice: Step-by-step to start.",
+      "From now on: Habit sustainability."
+    ],
+    "badge": "The Flight Plan",
+    "description": "A journey structured in 9 steps for you to master your narrative and unlock your revenue.",
+    "closingTitle": "Your moment of",
+    "closingSubtitle": "transition.",
+    "closingDescription": "Immediate access to the exclusive members area.",
+    "cta": "I WANT MY ACCESS NOW",
+    "ctaHint": "Start in less than 2 minutes"
+  },
+  "Bonus": {
+    "title": "EXCLUSIVE BONUS",
+    "subtitle": "Unlock Stories Challenge - 21 days",
+    "description": "21 daily missions with directions, phrases, and practical actions to get out of theory.",
+    "badge": "Exclusive for Students",
+    "giftDescription": "A strategic gift to accelerate your results and sustain your new authority.",
+    "items": [
+      "Targeted daily missions",
+      "Phrases and practical actions",
+      "Lifetime access to the guide",
+      "Support for questions"
+    ],
+    "cta": "GUARANTEE MY GIFT",
+    "originalPriceLabel": "Original Value",
+    "originalPriceValue": "$ 197.00"
+  },
+  "Offer": {
+    "originalPrice": "$ 497",
+    "promotionalPrice": "$ 97",
+    "warning": "Limited time special launch condition.",
+    "cta": "I want to unlock and start showing up",
+    "badge": "Immediate Access",
+    "title": "Invest in your",
+    "subtitle": "FUTURE.",
+    "description": "The definitive method for those who are tired of being invisible and decided to dominate the digital with real authority.",
+    "deliverablesTitle": "What you receive today:",
+    "deliverables": [
+      "Complete Show Up and Sell Training",
+      "Unlock Stories Ebook (21 days)",
+      "Lifetime Access to the platform",
+      "Certificate of Authority",
+      "Exclusive Bonus: Temperaments",
+      "Direct Support for Students"
+    ],
+    "guaranteeTitle": "7-Day Unconditional Guarantee:",
+    "guaranteeDescription": "If you don't feel the impact on your communication, we return 100% of your investment. No questions asked.",
+    "launchCondition": "Launch Condition",
+    "priceCurrency": "$",
+    "priceDecimals": ".00",
+    "ctaMain": "I WANT MY ACCESS NOW",
+    "securePayment": "Secure Payment via Kiwify"
+  },
+  "About": {
+    "name": "Thaís Crisley",
+    "founder": "Mentor",
+    "theMentor": "WHO IS THAÍS CRISLEY",
+    "behindTitle": "Mentor for women entrepreneurs for over 4 years,",
+    "behindSubtitle": "specialist in emotional unlocking and temperaments.",
+    "bio": "Throughout my journey, I began to notice a very clear pattern: women who had potential, knowledge, product, but simply could not show up. They knew what to do. But they froze, pressured themselves, compared themselves. And ended up giving up halfway through.\n\nIt was from this that I deepened my studies in behavior, emotions, and temperaments. Because it became clear to me that the problem was not in the lack of strategy, but in what these women felt when they tried to expose themselves.\n\nToday, my work is to help entrepreneurs understand themselves, unlock their blocks, and develop security to position themselves and sell: without forcing themselves, without sabotaging themselves, and without needing to become another person!\n\nEverything I teach comes from practice: from appointments, mentorships, and real processes that I accompany every day.\n\nAnd it is exactly this path that you will find inside Show Up and Sell.\n\nYou don't need another technique. You need to unlock what prevents you from using what you already know!\n\nI wait for you in Show Up and Sell!",
+    "cta": "I want to unlock now"
+  },
+  "Closing": {
+    "text": "You can keep delaying or make a decision today.",
+    "cta": "I want to start now",
+    "footer": "The price will return to normal soon.",
+    "madeBy": "Made by guibus.dev",
+    "name": "Thaís Crisley",
+    "instagram": "@thaiscrisley"
+  },
+  "Faq": {
+    "badge": "Common Questions",
+    "title": "FAQ",
+    "items": {
+      "0": {
+        "question": "How will I access the course?",
+        "answer": "As soon as your purchase is confirmed, you will receive access to the platform by email. Inside, all classes will be organized for you to watch at your own pace, from anywhere you want."
+      },
+      "1": {
+        "question": "How long will I have access?",
+        "answer": "Course access is for 1 year. Enough time for you to watch, apply, and revisit the content whenever you need."
+      },
+      "2": {
+        "question": "Does the course have individual monitoring?",
+        "answer": "No. This is a recorded course, designed for you to be able to unlock yourself with autonomy. But you will have support within the platform if you have questions during the process."
+      },
+      "3": {
+        "question": "Does the course work for any type of business?",
+        "answer": "Yes. Because it's not about the type of product or service. It's about you being able to position yourself and communicate with more security."
+      },
+      "4": {
+        "question": "Will I be able to do it even with little time?",
+        "answer": "Yes. The classes are direct and you can watch at your own pace. The most important thing is to apply, even if little by little."
+      }
+    }
+  },
+  "CookieConsent": {
+    "message": "We use cookies to improve your experience on our site.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "Errors": {
+    "not_found": {
+      "title": "404 - Page not found",
+      "description": "The page you are looking for does not exist.",
+      "button": "Back to home"
+    },
+    "general": {
+      "title": "Something went wrong!",
+      "description": "An unexpected error occurred.",
+      "button": "Try again"
+    }
+  }
+}
