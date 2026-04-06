@@ -1,6 +1,6 @@
 # <p align="center">APAREÇA E VENDA</p>
 
-<img src="https://github.com/gui-bus/portfolio/blob/master/public/projects/thais-crisley.png?raw=true" width="100%" alt="Thumbnail Apareça e Venda">
+<img src="https://github.com/gui-bus/portfolio/blob/master/public/projects/thais.png?raw=true" width="100%" alt="Thumbnail Apareça e Venda">
 
 <p align="center">
   <img alt="React" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/React.svg">
