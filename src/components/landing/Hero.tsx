@@ -37,7 +37,7 @@ export function Hero(): React.JSX.Element {
 
   return (
     <section
-      className="relative w-full flex items-center overflow-hidden bg-white pt-52 md:pt-32 px-6 lg:px-24"
+      className="relative w-full flex items-center overflow-hidden bg-white pt-32 px-6 lg:px-24"
       id="inicio"
     >
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
