@@ -1,5 +1,3 @@
-export const TARGET_DATE = new Date("2026-04-10T23:59:59").getTime()
-
 export const PRICES = {
   original: 497,
   promo: 97,
@@ -12,11 +10,9 @@ export const LINKS = {
 
 export const SITE_CONFIG = {
   get ctaUrl() {
-    const now = new Date().getTime()
-    return now <= TARGET_DATE ? LINKS.promo : LINKS.regular
+    return LINKS.promo
   },
   get isPromoActive() {
-    const now = new Date().getTime()
-    return now <= TARGET_DATE
+    return true
   },
 } as const

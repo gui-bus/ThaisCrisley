@@ -2,7 +2,6 @@ import * as React from "react"
 
 import { Header } from "@/src/components/common/header"
 import { OpeningScreen } from "@/src/components/common/openingScreen"
-import { PromoBanner } from "@/src/components/common/promoBanner"
 import { Benefits } from "@/src/components/landing/Benefits"
 import { Bonus } from "@/src/components/landing/Bonus"
 import { Closing } from "@/src/components/landing/Closing"
@@ -18,7 +17,6 @@ export default function Page(): React.JSX.Element {
   return (
     <div className="relative min-h-svh bg-background font-sans text-foreground selection:bg-brand-primary/30 selection:text-brand-primary w-full max-w-440 mx-auto">
       <OpeningScreen />
-      <PromoBanner />
       <Header />
 
       <main>
